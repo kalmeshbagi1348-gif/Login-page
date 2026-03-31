@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <div class="logcard">
+        <div class="logleft">
+            <h1 class="logo">INCOO</h1>
+            <a class="back" href="#" style="text-decoration: none;">Back to Home ->></a>
+        </div>
+        <div class="logright">
+            <h1 class="rimain" id="wel">Welcome Back!</h1>
+            <br>
+            <h2 class="rimain">Login</h2>
+            <form  action="action.php" method="post">
+                <label for="username" class="user">
+                    <i class="fi fi-sr-user"></i>
+                    <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                    <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                </label>
+                <label for="email" class="email">
+                    <i class="fi fi-sr-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </label>
+                <label for="password" class="password">
+                    <i class="fi fi-sr-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+                </label>
+                <p class="forgot"><a href="#" style="text-decoration: none;">Forgot Password?</a></p>
+                <button type="submit" name="login">Login</button>
+                
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
